@@ -1,0 +1,261 @@
+html a:hover,
+			body a:hover {
+				color: rgb(237, 150, 150);
+			}
+			blockquote:before {
+				content: "";
+				color: rgb(237, 150, 150);
+			}
+			.custom-btn {
+				background: rgb(237, 150, 150);
+			}
+			.peace-donate,
+			.peace-donate input[type="submit"] {
+				background: rgb(237, 150, 150);
+			}
+			.paypal-field.panel-group .panel {
+				border-bottom: 2px solid rgb(237, 150, 150);
+			}
+			.base-color {
+				color: rgb(237, 150, 150);
+			}
+			.section-title:before {
+				content: "";
+				background: rgb(237, 150, 150);
+			}
+			.breadcrumb a.breadcrumb-active {
+				color: rgb(237, 150, 150) !important;
+			}
+			.pagination-nav li a:hover,
+			.pagination-nav li.active a {
+				background-color: rgb(237, 150, 150);
+				border-color: rgb(237, 150, 150);
+			}
+			#commentform input[type="submit"],
+			#commentform button[type="submit"] {
+				background-color: rgb(237, 150, 150);
+			}
+			.donate .red > span {
+				background-color: #f0a3a3;
+				background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(237, 150, 150)), color-stop(1, rgb(237, 150, 150)));
+				background-image: -webkit-linear-gradient(rgb(237, 150, 150), rgb(237, 150, 150));
+			}
+			.donate .section-title {
+				color: rgb(237, 150, 150);
+			}
+			.donate .found {
+				color: rgb(237, 150, 150);
+			}
+			.donate .donate-details .goal {
+				color: rgb(237, 150, 150);
+				border: 3px solid rgb(237, 150, 150);
+			}
+			.donate .meter {
+				border-color: rgb(237, 150, 150);
+			}
+			.service .service-details .pooja:hover .head {
+				color: rgb(237, 150, 150);
+			}
+			.quotes .content h3 {
+				color: rgb(237, 150, 150);
+			}
+			.border-svg .st0{
+				stroke: rgb(237, 150, 150);
+			}
+			.border-svg:after {
+				background: rgb(237, 150, 150);
+			}
+			.quotes .ref i {
+				color: rgb(237, 150, 150);
+			}
+			.error-404 {
+				background: rgb(237, 150, 150);
+			}
+			.error-404 .heading-text h1.page-title {
+				color: rgb(237, 150, 150);
+			}
+			.error-404 .heading-text .go-back a {
+				border: 1px solid rgb(237, 150, 150);
+				color: rgb(237, 150, 150);
+			}
+			#top-section #peace-menu .current-menu-ancestor > a, .current_page_item > a{
+				color: rgb(237, 150, 150) !important;
+			}
+			#top-section #peace-menu .nav > li > a:hover,
+			#top-section #peace-menu .nav > li > a:focus,
+			#top-section #peace-menu .nav > li > a:active {
+				color: rgb(237, 150, 150);
+			}
+			#top-section #peace-menu .nav > li > a.donate {
+				background: rgb(237, 150, 150) !important;
+			}
+			#top-section #peace-menu .nav > li > a.donate:hover {
+				background: rgb(237, 150, 150) !important;
+			}
+			#top-section #peace-menu a.donate {
+				background: rgb(237, 150, 150) !important;
+			}
+			#top-section #peace-menu .donate:before {
+				background-color: rgb(237, 150, 150);
+			}
+			#top-section #peace-menu .donate:after {
+				background-color: rgb(237, 150, 150);
+			}
+			#top-section #peace-menu .nav > li > ul.dropdown-menu {
+				border-top: 4px solid rgb(237, 150, 150);
+			}
+			#top-section #peace-menu .nav > li > ul.dropdown-menu:after {
+				border-color: rgb(237, 150, 150) transparent;
+			}
+			.dropdown-menu>.active>a,
+			.dropdown-menu>.active>a:hover,
+			.dropdown-menu>.active>a:focus {
+				background-color: rgb(237, 150, 150);
+			}
+			.slider-section .slider-item span {
+				color: rgb(237, 150, 150);
+			}
+			.event .section-title {
+				color: rgb(237, 150, 150);
+			}
+			.event .bgLayer .text p.val {
+				color: rgb(237, 150, 150);
+			}
+			.all-event .event-post a:hover {
+				color: rgb(237, 150, 150);
+			}
+			.all-event .events-date {
+				border: 3px solid rgb(237, 150, 150);
+			}
+			.all-event .events-date span.event-date {
+				color: rgb(237, 150, 150);
+			}
+			.progress-bar {
+				background-color: rgb(237, 150, 150);
+			}
+			.piller-of-islam .curve-line:before {
+				color: rgb(237, 150, 150);
+			}
+			.piller-of-islam .curve-line:after {
+				color: rgb(237, 150, 150);
+			}
+			.piller-of-islam:hover .curve-line {
+				border-color: rgb(237, 150, 150);
+			}
+			.piller-of-islam:hover .curve-line:before {
+				border: 2px dashed rgb(237, 150, 150);
+			}
+			.piller-of-islam:hover .curve-line:after {
+				border: 2px dashed rgb(237, 150, 150);
+			}
+			.piler-of-islam .item:hover {
+				background: rgb(237, 150, 150);
+				border-color: rgb(237, 150, 150);
+			}
+			.piler-of-islam .item:hover:before {
+				border-color: rgb(237, 150, 150);
+			}
+			.portfolio .read-more {
+				background: rgb(237, 150, 150);
+			}
+			.portfolio-filter button:focus,
+			.portfolio-filter button:hover {
+				color: rgb(237, 150, 150);
+			}
+			.effect-oscar .item-link a {
+				border: 2px solid rgb(237, 150, 150);
+			}
+			.plus-sign:before {
+				color: rgb(237, 150, 150);
+			}
+			.effect-oscar:hover .item-link a {
+				border: 2px solid rgb(237, 150, 150);
+			}
+			.service .item:hover {
+				background: rgb(237, 150, 150);
+				border-color: rgb(237, 150, 150);
+			}
+			.service .item:hover:before {
+				border-color: rgb(237, 150, 150);
+			}
+			.service .item:hover .item-element {
+				background: rgb(237, 150, 150);
+			}
+			.what-we-do .section-title:before {
+				background: rgb(237, 150, 150);
+			}
+			.about-us .service-details .darson:hover .head {
+				color: rgb(237, 150, 150);
+			}
+			.about-us .darson:hover .item:before {
+				border-color: rgb(237, 150, 150);
+			}
+			.about-us .darson:hover .item {
+				background: rgb(237, 150, 150);
+				border-color: rgb(237, 150, 150);
+			}
+			.about-us .item:hover {
+				background: rgb(237, 150, 150);
+				border-color: rgb(237, 150, 150);
+			}
+			.about-us .item:hover:before {
+				border-color: rgb(237, 150, 150);
+			}
+			.shedule h2 {
+				color: rgb(237, 150, 150);
+			}
+			.shedule .section-title:before {
+				background: rgb(237, 150, 150);
+			}
+			.shedule .shedule-list {
+				border: 2px solid rgb(237, 150, 150);
+			}
+			.shedule .shedule-time:hover .hour h3 {
+				color: rgb(237, 150, 150);
+			}
+			.shedule .sunrise {
+				border: 2px solid rgb(237, 150, 150);
+				color: rgb(237, 150, 150);
+			}
+			#peace-testimonial p {
+				color: rgb(237, 150, 150);
+			}
+			ol.testimonial-indicators li {
+				border: 2px solid rgb(237, 150, 150);
+				background-color: rgb(237, 150, 150);
+			}
+			.wpcf7-form .form-control:focus {
+				border-color: rgb(237, 150, 150);
+			}
+			#top-cart:hover .top-cart-content {
+				border-top: 5px solid rgb(237, 150, 150);
+			}
+			#top-cart a.hd-icons {
+				color: rgb(237, 150, 150);
+			}
+			.product-action a.added,
+			.product-action a.loading {
+				background: rgb(237, 150, 150);
+			}
+			a.btn.sm-btn.has-badge {
+				border: 1px solid rgb(237, 150, 150);
+			}
+			.product-action a.add-to-cart:hover {
+				background: rgb(237, 150, 150);
+			}
+			.woocommerce div.product p.price,
+			.woocommerce div.product span.price {
+				color: rgb(237, 150, 150);
+			}
+			.return-to-shop a.button.wc-backward {
+				background-color: rgb(237, 150, 150);
+			}
+			.woocommerce .widget_price_filter .ui-slider .ui-slider-handle {
+				background-color: rgb(237, 150, 150);
+			}
+			.woocommerce .widget_price_filter .price_slider_amount .button {
+				background-color: rgb(237, 150, 150);
+			}
+			.price_label {
+				background-color: rgb(237, 150, 150);
+			}

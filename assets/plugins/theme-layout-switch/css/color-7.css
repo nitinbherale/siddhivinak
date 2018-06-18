@@ -1,0 +1,261 @@
+html a:hover,
+body a:hover {
+	color: #019875;
+}
+blockquote:before {
+	content: "";
+	color: #019875;
+}
+.custom-btn {
+	background: #019875;
+}
+.peace-donate,
+.peace-donate input[type="submit"] {
+	background: #019875;
+}
+.paypal-field.panel-group .panel {
+	border-bottom: 2px solid #019875;
+}
+.base-color {
+	color: #019875;
+}
+.section-title:before {
+	content: "";
+	background: #019875;
+}
+.breadcrumb a.breadcrumb-active {
+	color: #019875 !important;
+}
+.pagination-nav li a:hover,
+.pagination-nav li.active a {
+	background-color: #019875;
+	border-color: #019875;
+}
+#commentform input[type="submit"],
+#commentform button[type="submit"] {
+	background-color: #019875;
+}
+.donate .red > span {
+	background-color: #f0a3a3;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #019875), color-stop(1, #019875));
+	background-image: -webkit-linear-gradient(#019875, #019875);
+}
+.donate .section-title {
+	color: #019875;
+}
+.donate .found {
+	color: #019875;
+}
+.donate .donate-details .goal {
+	color: #019875;
+	border: 3px solid #019875;
+}
+.donate .meter {
+	border-color: #019875;
+}
+.service .service-details .pooja:hover .head {
+	color: #019875;
+}
+.quotes .content h3 {
+	color: #019875;
+}
+.border-svg .st0{
+	stroke: #019875;
+}
+.border-svg:after {
+	background: #019875;
+}
+.quotes .ref i {
+	color: #019875;
+}
+.error-404 {
+	background: #019875;
+}
+.error-404 .heading-text h1.page-title {
+	color: #019875;
+}
+.error-404 .heading-text .go-back a {
+	border: 1px solid #019875;
+	color: #019875;
+}
+#top-section #peace-menu .current-menu-ancestor > a, .current_page_item > a{
+	color: #019875 !important;
+}
+#top-section #peace-menu .nav > li > a:hover,
+#top-section #peace-menu .nav > li > a:focus,
+#top-section #peace-menu .nav > li > a:active {
+	color: #019875;
+}
+#top-section #peace-menu .nav > li > a.donate {
+	background: #019875 !important;
+}
+#top-section #peace-menu .nav > li > a.donate:hover {
+	background: #019875 !important;
+}
+#top-section #peace-menu a.donate {
+	background: #019875 !important;
+}
+#top-section #peace-menu .donate:before {
+	background-color: #019875;
+}
+#top-section #peace-menu .donate:after {
+	background-color: #019875;
+}
+#top-section #peace-menu .nav > li > ul.dropdown-menu {
+	border-top: 4px solid #019875;
+}
+#top-section #peace-menu .nav > li > ul.dropdown-menu:after {
+	border-color: #019875 transparent;
+}
+.dropdown-menu>.active>a,
+.dropdown-menu>.active>a:hover,
+.dropdown-menu>.active>a:focus {
+	background-color: #019875;
+}
+.slider-section .slider-item span {
+	color: #019875;
+}
+.event .section-title {
+	color: #019875;
+}
+.event .bgLayer .text p.val {
+	color: #019875;
+}
+.all-event .event-post a:hover {
+	color: #019875;
+}
+.all-event .events-date {
+	border: 3px solid #019875;
+}
+.all-event .events-date span.event-date {
+	color: #019875;
+}
+.progress-bar {
+	background-color: #019875;
+}
+.piller-of-islam .curve-line:before {
+	color: #019875;
+}
+.piller-of-islam .curve-line:after {
+	color: #019875;
+}
+.piller-of-islam:hover .curve-line {
+	border-color: #019875;
+}
+.piller-of-islam:hover .curve-line:before {
+	border: 2px dashed #019875;
+}
+.piller-of-islam:hover .curve-line:after {
+	border: 2px dashed #019875;
+}
+.piler-of-islam .item:hover {
+	background: #019875;
+	border-color: #019875;
+}
+.piler-of-islam .item:hover:before {
+	border-color: #019875;
+}
+.portfolio .read-more {
+	background: #019875;
+}
+.portfolio-filter button:focus,
+.portfolio-filter button:hover {
+	color: #019875;
+}
+.effect-oscar .item-link a {
+	border: 2px solid #019875;
+}
+.plus-sign:before {
+	color: #019875;
+}
+.effect-oscar:hover .item-link a {
+	border: 2px solid #019875;
+}
+.service .item:hover {
+	background: #019875;
+	border-color: #019875;
+}
+.service .item:hover:before {
+	border-color: #019875;
+}
+.service .item:hover .item-element {
+	background: #019875;
+}
+.what-we-do .section-title:before {
+	background: #019875;
+}
+.about-us .service-details .darson:hover .head {
+	color: #019875;
+}
+.about-us .darson:hover .item:before {
+	border-color: #019875;
+}
+.about-us .darson:hover .item {
+	background: #019875;
+	border-color: #019875;
+}
+.about-us .item:hover {
+	background: #019875;
+	border-color: #019875;
+}
+.about-us .item:hover:before {
+	border-color: #019875;
+}
+.shedule h2 {
+	color: #019875;
+}
+.shedule .section-title:before {
+	background: #019875;
+}
+.shedule .shedule-list {
+	border: 2px solid #019875;
+}
+.shedule .shedule-time:hover .hour h3 {
+	color: #019875;
+}
+.shedule .sunrise {
+	border: 2px solid #019875;
+	color: #019875;
+}
+#peace-testimonial p {
+	color: #019875;
+}
+ol.testimonial-indicators li {
+	border: 2px solid #019875;
+	background-color: #019875;
+}
+.wpcf7-form .form-control:focus {
+	border-color: #019875;
+}
+#top-cart:hover .top-cart-content {
+	border-top: 5px solid #019875;
+}
+#top-cart a.hd-icons {
+	color: #019875;
+}
+.product-action a.added,
+.product-action a.loading {
+	background: #019875;
+}
+a.btn.sm-btn.has-badge {
+	border: 1px solid #019875;
+}
+.product-action a.add-to-cart:hover {
+	background: #019875;
+}
+.woocommerce div.product p.price,
+.woocommerce div.product span.price {
+	color: #019875;
+}
+.return-to-shop a.button.wc-backward {
+	background-color: #019875;
+}
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle {
+	background-color: #019875;
+}
+.woocommerce .widget_price_filter .price_slider_amount .button {
+	background-color: #019875;
+}
+.price_label {
+	background-color: #019875;
+}

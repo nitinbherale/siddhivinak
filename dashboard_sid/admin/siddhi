@@ -1,0 +1,213 @@
+/*
+SQLyog Enterprise - MySQL GUI v7.02 
+MySQL - 5.7.19 : Database - siddhivinayak
+*********************************************************************
+*/
+
+/*!40101 SET NAMES utf8 */;
+
+/*!40101 SET SQL_MODE=''*/;
+
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+
+CREATE DATABASE /*!32312 IF NOT EXISTS*/`siddhivinayak` /*!40100 DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci */;
+
+USE `siddhivinayak`;
+
+/*Table structure for table `about_temple` */
+
+DROP TABLE IF EXISTS `about_temple`;
+
+CREATE TABLE `about_temple` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `description` longtext COLLATE utf8_unicode_ci,
+  `edit_date` date DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+/*Data for the table `about_temple` */
+
+insert  into `about_temple`(`id`,`description`,`edit_date`) values (1,'<p><img alt=\"\" src=\"jhhhhhhhhhh\" />this is my page</p>\r\n','2018-06-05');
+
+/*Table structure for table `admin` */
+
+DROP TABLE IF EXISTS `admin`;
+
+CREATE TABLE `admin` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `username` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `email` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `password` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `status` int(11) DEFAULT '0',
+  `session_id` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+/*Data for the table `admin` */
+
+insert  into `admin`(`id`,`username`,`email`,`password`,`status`,`session_id`) values (1,'akshata','akshatapawar129@gmail.com','675737b908ed6fa14bb6c3d7157f49d6',0,'jk708f1fkspap7vrbth1mevef1');
+
+/*Table structure for table `disclaimer` */
+
+DROP TABLE IF EXISTS `disclaimer`;
+
+CREATE TABLE `disclaimer` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `disclaimer` longtext COLLATE utf8_unicode_ci,
+  `edit_date` date DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+/*Data for the table `disclaimer` */
+
+insert  into `disclaimer`(`id`,`disclaimer`,`edit_date`) values (1,'<p>This is my text</p>\r\n','2018-06-06');
+
+/*Table structure for table `imp_dates` */
+
+DROP TABLE IF EXISTS `imp_dates`;
+
+CREATE TABLE `imp_dates` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `date` date DEFAULT NULL,
+  `status` int(11) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=14 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+/*Data for the table `imp_dates` */
+
+insert  into `imp_dates`(`id`,`title`,`date`,`status`) values (1,'Sankashti Chaturthi','2018-06-03',0),(2,'Sankashti Chaturthi','2018-06-03',1),(3,'Sankashti Chaturthi6','2018-06-06',1),(4,'Sankashti Chaturthi','2018-06-01',1),(5,'Sankashti Chaturthi5','2018-07-05',0),(6,'Sankashti Chaturthi','2018-06-03',1),(7,'Sankashti Chaturthi','2018-06-03',0),(8,'Angarki Chaturthi','2018-06-13',0),(9,'Sankashti Chaturthi','2018-06-28',0),(10,'Sankashti Chaturthi','2018-06-28',0),(11,'Sankashti Chaturthi','2018-06-28',0),(12,'Sankashti Chaturthi','2018-06-29',0),(13,'Sankashti Chaturthi','2018-06-19',0);
+
+/*Table structure for table `photo_gallery` */
+
+DROP TABLE IF EXISTS `photo_gallery`;
+
+CREATE TABLE `photo_gallery` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `image` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `add_date` date DEFAULT NULL,
+  `edit_date` date DEFAULT NULL,
+  `status` int(11) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+/*Data for the table `photo_gallery` */
+
+insert  into `photo_gallery`(`id`,`image`,`add_date`,`edit_date`,`status`) values (1,'1528460730_407.jpg','2018-06-08',NULL,0),(2,'1528460771_5.jpg','2018-06-08',NULL,0),(3,'1528520462_7.JPG','2018-06-09',NULL,0),(4,'1528520480_angarakhi1.jpg','2018-06-09',NULL,1),(5,'1528520780_2.jpg','2018-06-09',NULL,1);
+
+/*Table structure for table `pooja_details` */
+
+DROP TABLE IF EXISTS `pooja_details`;
+
+CREATE TABLE `pooja_details` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `type_of_pooja` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `reporting_time` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `frequency` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `duration` decimal(10,0) DEFAULT NULL,
+  `amount` decimal(10,0) DEFAULT NULL,
+  `persons` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `prasad` varchar(500) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `status` int(11) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+/*Data for the table `pooja_details` */
+
+insert  into `pooja_details`(`id`,`type_of_pooja`,`reporting_time`,`frequency`,`duration`,`amount`,`persons`,`prasad`,`status`) values (1,'Avartan Panchamrut Pooja','8 am','Daily','100','101','Two','2 Ladoos, 1 Coconut, 1 Banana, Vibhuti',0),(2,'Two Avartan Shodashopchar Pooja1','8.00 am1','Daily1','278','148','Two1','2 Ladoos, 1 Coconut, 1 Banana, Vibhuti1',1);
+
+/*Table structure for table `recent_event` */
+
+DROP TABLE IF EXISTS `recent_event`;
+
+CREATE TABLE `recent_event` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `evnt_title` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `event_date` date DEFAULT NULL,
+  `event_duration` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `event_address` varchar(1000) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `event_description` longtext COLLATE utf8_unicode_ci,
+  `image` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `status` int(11) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+/*Data for the table `recent_event` */
+
+insert  into `recent_event`(`id`,`evnt_title`,`event_date`,`event_duration`,`event_address`,`event_description`,`image`,`status`) values (1,'ANGARKI CHATURTHI','2018-06-21','3','S.K.Bole Marg, Prabhadevi, Mumbai 400028','Sankashti Chaturthi is an auspicious day dedicated to Ganesha. This day is observed in every lunar month of the Hindu calendar on the fourth day of Krishna Paksha','1527940606_5.jpg',0),(2,'ANGARKI CHATURTHI','2018-06-21','3','S.K.Bole Marg, Prabhadevi, Mumbai 400028','Sankashti Chaturthi is an auspicious day dedicated to Ganesha. This day is observed in every lunar month of the Hindu calendar on the fourth day of Krishna Paksha','1527940668_5.jpg',1),(3,'SANKASHTI CHATURTHI1','2018-06-28','2','S.K.Bole Marg, Prabhadevi, Mumbai 400023','Sankashti Chaturthi is an auspicious day dedicated to Ganesha. This day is observed in every lunar month of the Hindu calendar on the fourth day of Krishna Paksha1','1528182686_2.jpg',0),(4,'VINAYAKI CHATURTHI','2018-07-26','3','S.K.Bole Marg, Prabhadevi, Mumbai 400028','Sankashti Chaturthi is an auspicious day dedicated to Ganesha. This day is observed in every lunar month of the Hindu calendar on the fourth day of Krishna Paksha','1528183164_8.jpg',0);
+
+/*Table structure for table `services` */
+
+DROP TABLE IF EXISTS `services`;
+
+CREATE TABLE `services` (
+  `ser_id` int(11) NOT NULL AUTO_INCREMENT,
+  `ser_icon` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `ser_title` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `ser_description` longtext COLLATE utf8_unicode_ci,
+  `status` int(11) DEFAULT '0',
+  `add_date` date DEFAULT NULL,
+  `edit_date` date DEFAULT NULL,
+  PRIMARY KEY (`ser_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=14 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+/*Data for the table `services` */
+
+insert  into `services`(`ser_id`,`ser_icon`,`ser_title`,`ser_description`,`status`,`add_date`,`edit_date`) values (3,'fa fa-cog faa-spin animated','Online Pooja Booking','Online Pooja Booking',0,'2018-06-01','2018-06-02'),(2,'fa fa-cog faa-spin animated','Online Pooja Booking','Online Pooja Booking',0,'2018-06-01','2018-06-01'),(4,'fa fa-cog faa-spin animated','Online Pooja Booking','Online Pooja Booking',0,'2018-06-01','2018-06-01'),(5,'fa fa-cog faa-spin animated1','Online Pooja Booking1','Online Pooja Booking1',1,'2018-06-01','2018-06-01'),(6,'fa fa-cog faa-spin animated1','Online Pooja Booking1','Online Pooja Booking1',1,'2018-06-01','2018-06-01'),(7,'fa fa-cog faa-spin animated1','Online Pooja Booking1','Online Pooja Booking1',1,'2018-06-01','2018-06-01'),(8,'fa fa-cog faa-spin animated1','Online Pooja Booking1','Online Pooja Booking1',1,'2018-06-01','2018-06-01'),(9,'fa fa-cog faa-spin animated1','Online Pooja Booking1','Online Pooja Booking1',1,'2018-06-01','2018-06-01'),(10,'fa fa-cog faa-spin animated1','Online Pooja Booking1','Online Pooja Booking1',1,'2018-06-01','2018-06-01'),(11,'fa fa-bell faa-ring animated','Book Archana Pooja','Book Archana Pooja',0,'2018-06-01',NULL),(12,'dev archatn','this i2','sthisfks2',1,'2018-06-01','2018-06-01'),(13,'this ','thsi ','this ',1,'2018-06-01',NULL);
+
+/*Table structure for table `slider` */
+
+DROP TABLE IF EXISTS `slider`;
+
+CREATE TABLE `slider` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `desk_img` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `mob_img` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `status` int(11) DEFAULT '0',
+  `add_date` date DEFAULT NULL,
+  `edit_date` date DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci CHECKSUM=1 DELAY_KEY_WRITE=1 ROW_FORMAT=DYNAMIC;
+
+/*Data for the table `slider` */
+
+insert  into `slider`(`id`,`desk_img`,`mob_img`,`status`,`add_date`,`edit_date`) values (8,'1527846572_1527832192_1.jpg','1527846585_mob3.jpg',0,'2018-06-01','2018-06-01'),(7,'1527832440_2.jpg','1527832440_mob2.jpg',0,'2018-06-01','2018-06-01'),(6,'1527832183_1.jpg','1527832183_mob1.jpg',0,'2018-06-01',NULL),(9,'1527934425_1527850791_nmpl 002.jpg','1527916095_1527832440_mob2.jpg',0,'2018-06-02','2018-06-02'),(10,'1527916137_1527832192_1.jpg','1527916137_1527832440_mob2.jpg',1,'2018-06-02',NULL);
+
+/*Table structure for table `temple_activities` */
+
+DROP TABLE IF EXISTS `temple_activities`;
+
+CREATE TABLE `temple_activities` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `description` longtext COLLATE utf8_unicode_ci,
+  `image` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `status` int(11) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+/*Data for the table `temple_activities` */
+
+insert  into `temple_activities`(`id`,`title`,`description`,`image`,`status`) values (1,'Religious Activities1','Celebrating festivals & Utsavs1','1528195133_activities1.jpg',0),(2,'Cultural Activities','Cultural programs during Maghi Ganeshotsav','1528195066_maghi_utsav.jpg',0),(3,'Social Activities','Educational Activities like Ultramodern Library','1528193519_libraray.jpg',0),(4,'Social Activities','Educational Activities like Ultramodern Library\r\n\r\n','1528193595_libraray.jpg',1),(5,'Other Activities','Conservation of Nature activities','1528193650_activities2.jpg',0);
+
+/*Table structure for table `trustees` */
+
+DROP TABLE IF EXISTS `trustees`;
+
+CREATE TABLE `trustees` (
+  `trustee_id` int(11) NOT NULL AUTO_INCREMENT,
+  `trustee_name` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `trustee_work` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `trustee_image` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `seniority` int(11) DEFAULT NULL,
+  `status` int(11) DEFAULT '0',
+  PRIMARY KEY (`trustee_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+/*Data for the table `trustees` */
+
+insert  into `trustees`(`trustee_id`,`trustee_name`,`trustee_work`,`trustee_image`,`seniority`,`status`) values (1,'ADESH BANDEKAR','CHAIRMAN','1527854990_Adesh_bandekar.jpg',10,0),(2,'SUMANT GHAISAS','TREASURER','1527939221_Sumant_Ghaisas.jpg',9,0),(3,'SUMANT GHAISAS','TREASURER','1527855346_Sumant_Ghaisas.jpg',9,1),(4,'BHARAT PARIKH','TRUSTEE','1527916821_Bharat_Parikh.jpg',9,1);
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;

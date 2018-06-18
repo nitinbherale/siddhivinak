@@ -1,0 +1,136 @@
+<!--About-->
+#about_advert_section{padding-top: 20px;padding-bottom: 50px;}
+#about_top_section{padding-top: 50px;padding-bottom: 50px;}
+
+<!--Breadrumb Overlay-->
+
+<!--Board Of Trustees-->
+#trustees_section {padding-top: 60px;padding-bottom: 50px;background: #fff;}
+#trustees_section .thumbnail .caption{text-align: center;font-weight: 600;text-transform: uppercase;background:linear-gradient(rgb(255, 255, 255) 0%, rgb(255, 228, 184) 100%);}
+#trustees_section .thumbnail .caption p{margin-bottom: 0px;color: #000;}
+#trustees_section .thumbnail .caption .name{color: #f05737;font-weight: 800;font-size: 16px;padding-bottom: 5px;padding-top: 5px;}
+#trustees_section .top_bar_heading{background: url("images/internal_banner.jpg");height: 250px;}
+
+<!--Temple Activities-->
+#activities_section{padding-top: 50px;background: #fff;padding-bottom: 50px;}
+#activities_section .sermons .portal img{float: none;width: 100%;border-radius: 0px;height: auto;}
+#activities_section .sermons .portal .content {display: block;text-align: center;background: linear-gradient(rgb(255, 255, 255) 0%, rgb(255, 228, 184) 100%);margin-bottom: 0px;padding-top: 15px;padding-bottom: 15px;}
+#activities_section .sermons .portal .content p{margin-bottom: 0px;}
+#activities_section .sermons .portal{padding: 0px;}
+#activities_section .home .portal a { font-size: 22px; line-height: 33px;color: #f05737;border-bottom: 0px solid;
+    font-family: roboto;}
+
+<!--Financial Results-->
+#financial_results{background: #fff;padding-top: 60px;padding-bottom: 50px;} 
+
+
+<!--News -->
+#news_section {background: #fff;padding-top: 60px;padding-bottom: 50px;}
+
+<!--Photo Gallery-->
+
+#gallery_section {padding: 80px 0 50px;}
+#gallery_section .gallery-filter {margin-bottom: 50px;text-align: center;border-bottom: 1px solid #E2E2E2;}
+#gallery_section .gallery-filter li {
+    display: inline;
+}
+#gallery_section .gallery-filter li span {display: inline-block;font-size: 13px;line-height: 45px;color: #787878;font-weight: 600;
+    text-transform: uppercase;cursor: pointer;padding: 0 20px;position: relative;transition: all .3s ease;}
+#gallery_section .gallery-filter li.active span:before {content: ' ';display: block;width: 100%;height: 2px;background: #f05737;position: absolute;bottom: -1px;left: 0;
+}
+#gallery_section .gallery-filter li.active span,
+#gallery_section .gallery-filter li:hover span {
+    color: #f05737;
+}
+#gallery_section .col-lg-4 {margin-bottom: 20px;display: none;padding: 0 10px;box-sizing: border-box;}
+#gallery_section .col-lg-4 .img-wrap {position: relative;}
+#gallery_section .col-lg-4 .img-wrap img {width: 100%;}
+#gallery_section .col-lg-4 .img-wrap .content-wrap {width: 100%;height: 100%;position: absolute;top: 0;left: 0;padding: 10px;cursor: pointer;opacity: 0;background-color: transparent;
+transition: all .3s ease;}
+#gallery_section .col-lg-4 .img-wrap .content-wrap:before{background: rgba(252, 90, 27, .85);}
+
+#gallery_section .col-lg-4:hover .img-wrap .content-wrap {opacity: 1;}
+#gallery_section .col-lg-4 .img-wrap .content-wrap .border {width: 100%;height: 100%; border: 1px solid #fff;}
+#gallery_section .col-lg-4 .img-wrap .content-wrap h4 {color: #fff;margin: 0;font-size: 16px;line-height: 22px;text-transform: uppercase;font-weight: bold;text-align: center;}
+#gallery_section .col-lg-4 .img-wrap .content-wrap span {color: #fff;display: block;font-size: 14px;line-height: 22px;text-transform: capitalize;font-weight: 600;text-align: center;}
+#gallery_section .col-lg-4 .img-wrap .content-wrap .content {position: relative;top: 45%;}
+
+<!--Live Darshan-->
+#live_casting_section{padding-top: 50px;padding-bottom: 50px;background: #fff;}
+
+<!--Booking Donation-->
+ #booking_don .booking_don{padding-top: 30px;padding-bottom: 20px;}
+ #booking_don .popular-post li{list-style: none;}
+ #booking_don .popular-post{margin-left: -38px;padding-bottom: 10px;}
+ #booking_don .theme_clr{color: #f05737;font-weight: 600;}
+ #booking_don .fnt_weight{font-weight: 600;color: #000;margin-bottom: 0px;} 
+
+
+ <!--Pooja Details-->
+#pooja_details{padding-top: 50px;padding-bottom: 50px;}
+#pooja_details .table-bordered>thead>tr>th{color: #000;}
+#pooja_details .table>tbody>tr>td{color: #000;}
+
+<!--ganesha resources-->
+.books_ganesha {border: 1px solid #ddd;padding: 10px;text-align: center;transition: all 0.5s ease;cursor: crosshair;}
+.books_ganesha:hover{-webkit-box-shadow: 0 10px 6px -6px #777;-moz-box-shadow: 0 10px 6px -6px #777;box-shadow: 0 10px 6px -6px #777;}
+.book_rw{padding-top: 25px;margin-top:3px;}
+.asht_vinayk .btm_row{margin-top: 20px;}
+.asht_vinayk .box {cursor: pointer;position: relative;overflow: hidden;width: 100%;}
+.asht_vinayk .box img {left: 0;top: 0;right: 0;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+}
+.asht_vinayk .box .overbox {background-color: rgba(251, 111, 1, 0.87);position: absolute;top: 0;left: 0;color: #fff;z-index: 100;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+}
+.asht_vinayk .box .overbox .btn{background: #fff;color: #f25104;border:1px solid #fff;}
+.asht_vinayk .box:hover .overbox { opacity: 1; }
+.asht_vinayk .box .overtext {-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  transform: translateY(40px);
+  -webkit-transform: translateY(40px);
+}
+.asht_vinayk .box .title {font-size: 1.1em;opacity: 0;transition-delay: 0.1s;transition-duration: 0.2s;text-align: center;padding-top: 65px;padding-bottom: 20px;}
+.asht_vinayk .box:hover .title,
+.asht_vinayk .box:focus .title {opacity: 1;
+  transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+}
+.asht_vinayk .box .tagline {font-size: 0.8em;opacity: 0;transition-delay: 0.2s;transition-duration: 0.2s;}
+.asht_vinayk .box:hover .tagline,
+.asht_vinayk .box:focus .tagline {opacity: 1;transform: translateX(0px);-webkit-transform: translateX(0px);}
+.asht_vinayk_modal .modal-body p{color: #f25104;line-height: 29px;font-size: 17px;}
+.asht_vinayk_modal .modal-header{background: #f25104;color: #fff;text-align: center;}
+.asht_vinayk_modal .modal-header h5{font-size: 20px;font-weight: 600;}
+.asht_vinayk_modal .modal-header .close {margin-top: -2px;position: absolute;background: #fff;opacity: 1.0;right: 0px;top: 2px;padding: 7px;border-radius: 0px;}.general-question .panel-group .panel {border-radius: 0;}
+.general-question .panel-group .panel-default > .panel-heading {border-color: #e9e9e9;background-color: #ffffff;}
+.general-question .panel-group .panel-default .panel-title {color: #8e8d8d;font-size: 14px;font-weight: 500;padding: 5px 0;}
+#blog.faq article .popular-question h2:after {display: none;}
+.general-question .panel-group .panel-default .panel-title a {display: block;position: relative;}
+.general-question .panel-group .panel-default .panel-title a:after {content: "\f106";font-family: fontawesome;background: #f9f9f9 none repeat scroll 0 0;border-left: 1px solid #e9e9e9;color: #7d7d7d;font-size: 24px;padding: 9px 15px;position: absolute;right: -15px;top: -15px; }
+.general-question .panel-group .panel-default .panel-title a.collapsed:after {content: "\f107";font-family: fontawesome;background: #f9f9f9 none repeat scroll 0 0;border-left: 1px solid #e9e9e9;color: #7d7d7d;font-size: 24px;padding: 14px 15px 0;position: absolute;right: -15px;top: -15px;}
+
+
+<!--Form And Tenders-->
+#form_tendr {padding-top: 50px;padding-bottom: 50px;}
+#form_tendr .table-bordered>thead>tr>th{color: #000;}
+#form_tendr .table>tbody>tr>td{color: #000;}
+
+<!--contact Us-->
+ #contact_us{padding-top: 50px;padding-bottom: 50px;}
+ #contact_us .custom-btn{background: #f05737;color: #fff;}
+
